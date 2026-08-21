@@ -1,0 +1,21 @@
+{
+  "certification": "optisys-integration-security",
+  "version": "1.0",
+  "validated_capabilities": {
+    "migration_planning": true,
+    "provider_execution_coordination": true,
+    "rollback_checkpoint": true,
+    "cutover_verification_required": true,
+    "securepact_cutover_evidence_required": true,
+    "rollback_revokes_authority": true,
+    "source_preserved_on_rollback": true,
+    "source_retirement_requires_rollback_window": true,
+    "source_retirement_requires_verified_cutover": true,
+    "source_retirement_requires_securepact": true,
+    "matrix_deterministic_resolution": true,
+    "matrix_policy_enforcement": true,
+    "matrix_execution_gate": true,
+    "unresolved_destination_fails_closed": true
+  },
+  "publication_note": "Sanitized public certification summary derived from validated OptiSys integration, migration, Matrix Engine, and retirement tests."
+}
