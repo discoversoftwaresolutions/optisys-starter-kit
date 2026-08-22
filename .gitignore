@@ -1,0 +1,44 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+service-account*.json
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Node
+node_modules/
+dist/
+build/
+
+# Runtime
+*.log
+*.pid
+tmp/
+.tmp/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# OptiSys private/internal artifacts
+production-freeze/
+cutover-plane/
+retirement-plane/
+audit_log.jsonl
+
+# Generated output
+benchmark-output/
+test-output/
+*.tsbuildinfo

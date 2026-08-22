@@ -1,0 +1,13 @@
+{
+  "benchmark": "optisys-canonical-resource-processing",
+  "version": "1.0",
+  "source_artifact": "canonical-resource-processing-50000-20260821T023604Z.json",
+  "resources_per_run": 50000,
+  "median_throughput_resources_per_second": 164289.82066205348,
+  "observed_high_throughput_resources_per_second": 167778.47139927477,
+  "integrity": {
+    "resource_manifest_sha256_present": true,
+    "optimization_sha256_present": true
+  },
+  "publication_note": "Sanitized public summary derived from validated OptiSys canonical-resource certification evidence. Private infrastructure and operational metadata are excluded."
+}

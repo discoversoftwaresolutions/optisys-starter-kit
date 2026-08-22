@@ -1,0 +1,22 @@
+{
+  "benchmark": "optisys-multidomain-enterprise-certification",
+  "version": "1.0",
+  "source_artifact": "multidomain-enterprise-1000000-20260821T030107Z.json",
+  "resources": 1000000,
+  "dependency_edges": 479889,
+  "certification_runs": 3,
+  "median_technical_tti_seconds": 20.91418703200179,
+  "median_throughput_resources_per_second": 47814.4332586226,
+  "observed_run_throughput_resources_per_second": [
+    47280.97614385626,
+    47814.4332586226,
+    47863.20957988466
+  ],
+  "validation": {
+    "active_resources_traversed": 1000000,
+    "resources_discovered": 1000000,
+    "resources_generated": 1000000,
+    "optimizer_resource_count": 1000000
+  },
+  "publication_note": "Sanitized public summary derived from the validated OptiSys enterprise certification artifact. Private infrastructure and operational metadata are excluded."
+}

@@ -1,0 +1,44 @@
+{
+  "certification": "optisys_cloud_orchestration",
+  "status": "validated",
+  "architecture": {
+    "matrix_resolution": true,
+    "policy_evaluation": true,
+    "execution_authorization": true,
+    "provider_execution_boundary": true,
+    "provider_adapter_registry": true
+  },
+  "routing_capabilities": {
+    "provider_aware": true,
+    "region_aware": true,
+    "accelerator_aware": true,
+    "workload_aware": true,
+    "cost_aware": true,
+    "performance_aware": true,
+    "availability_aware": true,
+    "compliance_aware": true
+  },
+  "matrix_hardware_contracts": [
+    "tpu",
+    "nvidia_gpu",
+    "amd_gpu",
+    "trainium",
+    "inferentia"
+  ],
+  "provider_contracts": [
+    "gcp",
+    "aws",
+    "azure"
+  ],
+  "live_execution_certification": {
+    "provider": "gcp",
+    "accelerator": "tpu",
+    "validated": true
+  },
+  "certification_boundary": {
+    "matrix": "planning_and_authorization",
+    "live_provider_execution": "separate_provider_execution_layer",
+    "aws_live_execution_certified": false,
+    "azure_live_execution_certified": false
+  }
+}
